@@ -16,8 +16,16 @@ window.onload = function () {
     itemTree.forEach(function (item) {
       processNode(item);
     });
+
+    if (folderCount === false){
+        document.getElementById("openFolders").style.display = "none";
+        document.getElementById("section2").style.display = "none";
+        document.getElementById("openBookmarks").classList.remove("margin-bottom");
+    }
   });
 };
+
+var folderCount = false
 
 function processNode(node) {
   console.log(node);
@@ -32,6 +40,7 @@ function processNode(node) {
   ) {
 
     addFolder(node, num);
+    folderCount = true
     num++;
   } else if (node.children) {
     node.children.forEach(function (child) {
