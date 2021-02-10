@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+}
+
+body {
+  text-align: left;
+  width: 200px;
+  background-color: #212329;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #6c737c;
+}
+
+a:hover {
+  color: #4287f5;
+}
+
+h2 {
+  font-size: 16px;
+  color: white;
+}
+
+.margin-bottom {
+  margin-bottom: 12px;
+}
+
+.section-wrapper {
+  border-radius: 12px;
+  width: calc(100% - 24px);
+  padding: 12px;
+  background: rgb(86, 91, 97);
+  background: linear-gradient(
+    197deg,
+    rgba(86, 91, 97, 1) 0%,
+    rgba(75, 78, 83, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+}
+
+.button-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.link-text123 {
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+}
+
+.link-text123:hover {
+  color: blue;
+}
+
+.open-button {
+  border-radius: 12px;
+  background-color: #4287f5;
+  padding: 6px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.open-button:hover {
+  color: white;
+  opacity: 0.6;
+}
+
+
+.folder-item {
+  margin-bottom: 6px;
+}
+
+.folder-item-text {
+  color: white;
+  font-weight: bold;
+}
+
+.bottom-text {
+  margin-left: auto;
+  margin-right: 0;
+  margin-top: 6px;
+  font-size: 8px;
+  color: white;
+}
+
